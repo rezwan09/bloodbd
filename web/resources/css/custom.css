@@ -1,0 +1,36 @@
+/*remove all rounded border*/
+input, select, button, a, textarea {
+    border-radius: 0 !important;
+}
+.content{
+    margin: 10px 20px;
+    background: #FFF;
+}
+.box
+{
+    border: 1px solid #d2d6de;
+}
+.content-header > h1 > small {
+    color: #0076BB;
+    font-weight: normal;
+    margin-left: 6px;
+}
+.content-header > h1 > small .fa-arrow-circle-left {
+    font-size: 14px;
+    margin-right: 1px;
+}
+.fa {
+    padding-right: 5px !important;
+}
+.alert {
+    margin-bottom: 0 !important;
+}
+
+body{
+    font-family: 'Nikosh', 'SolaimanLipi';
+}
+/*datatable first column sort icon removal*/
+table.dataTable thead .sorting_asc:after{
+    content:"";
+} 
+

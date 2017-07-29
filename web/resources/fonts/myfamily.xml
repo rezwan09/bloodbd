@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fontFamilies>
+ 
+    <fontFamily name="SolaimanLipi">
+        <normal><![CDATA[fonts/SolaimanLipi.ttf]]></normal>
+        <bold>net/sf/jasperreports/fonts/SolaimanLipi.ttf</bold>
+        <italic>net/sf/jasperreports/fonts/SolaimanLipi.ttf</italic>
+        <boldItalic>net/sf/jasperreports/fonts/SolaimanLipi.ttf</boldItalic>
+        <pdfEncoding>Identity-H</pdfEncoding>
+        <pdfEmbedded>true</pdfEmbedded>
+    </fontFamily>
+ 
+ 
+    <fontFamily name="Tahoma">
+        <normal><![CDATA[fonts/tahoma.ttf]]></normal>
+        <bold><![CDATA[fonts/tahomabd.ttf]]></bold>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+ 
+ 
+</fontFamilies>

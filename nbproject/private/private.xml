@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/src/java/blood/bloodgroup/service/BloodGroupServiceImpl.java</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/src/java/blood/bloodgroup/dao/BloodGroupDao.java</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/jsp/template/dashboard.jsp</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/src/java/blood/bloodgroup/controller/IndexController.java</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/jsp/template/PublicSiteTemplate.jsp</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/jsp/template/publicHeader.jsp</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/src/java/blood/bloodgroup/controller/BloodGroupController.java</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/layouts/layouts.xml</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/src/java/blood/bloodgroup/dao/BloodGroupDaoImpl.java</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/jsp/template/sidebar.jsp</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/dispatcher-servlet.xml</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/layouts/views.xml</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/jsp/template/publicFooter.jsp</file>
+            <file>file:/C:/Users/rezwan/Documents/NetBeansProjects/Test/web/WEB-INF/jsp/bloodGroup.jsp</file>
+        </group>
+    </open-files>
+</project-private>
