@@ -57,7 +57,8 @@
     </script>
     <style>
         body{
-            background:  url('resources/img/bg_image.jpg');
+            /*background:  url('resources/img/bg_image.jpg');*/
+            background-color: #D3D3D3;
         }
     </style>
     <c:set var="title"><tiles:getAsString  name="title" ignore="true"/></c:set>
@@ -65,19 +66,14 @@
 
     <!--    <body class="hold-transition skin-blue-light sidebar-mini">-->
     <body class="hold-transition">
-        <div>
+        <div class="container" style="background-color: greenyellow">
 
             <!-- Main Header -->
             <tiles:insertAttribute name="header" />
             <!-- Left side column. contains the logo and sidebar -->
             <!-- Content Wrapper. Contains page content -->
-            <div class="container content-wrapper" style="min-height: 600px; padding-bottom:100px;">
+            <div class="container content-wrapper" style="min-height: 600px; padding-bottom:10px;">
                 <tiles:insertAttribute name="body" /> 
-                <div class="modal" style="display: none">
-                    <div class="center">
-                        <img alt="Loading..." src="${pageContext.request.contextPath}/resources/img/loading.gif" />
-                    </div>
-                </div>
             </div>
             <!-- /.content-wrapper -->
             <!-- Main Footer -->

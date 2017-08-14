@@ -15,7 +15,7 @@
 
     <mvc:annotation-driven />
     <context:annotation-config/>
-    <context:component-scan base-package="blood.*"/>
+    <context:component-scan base-package="com.blood.*"/>
     
     <bean class="org.springframework.web.servlet.mvc.support.ControllerClassNameHandlerMapping"/>
 
@@ -62,8 +62,9 @@
         <property name="dataSource" ref="dataSource" />
         <property name="annotatedClasses">
             <list>
-                <value>blood.bloodgroup.model.BloodGroup</value>
-                <value>blood.geolocation.model.Division</value>                                 
+                <value>com.blood.bloodgroup.model.BloodGroup</value>
+                <value>com.blood.geolocation.model.Division</value>
+                <value>com.blood.donor.model.Donor</value>                                 
             </list>
         </property>
         <property name="hibernateProperties">

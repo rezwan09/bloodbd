@@ -13,5 +13,9 @@
         <put-attribute name="title" value="Blood Group List"></put-attribute>        
         <put-attribute name="body" value="/WEB-INF/jsp/bloodGroup.jsp" />
     </definition>
+    <definition name="donor" extends="PublicSiteTemplate">		
+        <put-attribute name="title" value="Become a Donor"></put-attribute>        
+        <put-attribute name="body" value="/WEB-INF/jsp/donor.jsp" />
+    </definition>
 </tiles-definitions>
 

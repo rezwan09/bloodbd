@@ -3,14 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.blood.bloodgroup.service;
+package com.blood.geolocation.service;
 
-import com.blood.bloodgroup.dao.BloodGroupDao;
-import com.blood.bloodgroup.model.BloodGroup;
+import com.blood.geolocation.dao.DivisionDao;
+import com.blood.geolocation.model.Division;
 import java.util.List;
+import javax.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 /**
  *
@@ -18,14 +18,13 @@ import org.springframework.transaction.annotation.Transactional;
  */
 @Service
 @Transactional
-public class BloodGroupServiceImpl implements BloodGroupService{
+public class DivisionServiceImpl implements DivisionService{
     @Autowired
-    BloodGroupDao bloodGroupDao;
+    DivisionDao divisionDao;
     
     @Override
-    public List<BloodGroup> getBloodGroupList()
+    public List<Division> getDivisionList()
     {
-        return bloodGroupDao.getBloodGroupList();
+        return this.divisionDao.getDivisionList();
     }
-    
 }

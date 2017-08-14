@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package blood.bloodgroup.controller;
+package com.blood.bloodgroup.controller;
 
-import blood.bloodgroup.model.BloodGroup;
-import blood.bloodgroup.service.BloodGroupService;
+import com.blood.bloodgroup.model.BloodGroup;
+import com.blood.bloodgroup.service.BloodGroupService;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;

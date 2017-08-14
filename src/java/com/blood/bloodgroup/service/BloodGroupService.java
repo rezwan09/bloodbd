@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package blood.bloodgroup.service;
+package com.blood.bloodgroup.service;
 
-import blood.bloodgroup.model.BloodGroup;
+import com.blood.bloodgroup.model.BloodGroup;
 import java.util.List;
 import javax.transaction.Transactional;
 import org.springframework.stereotype.Service;

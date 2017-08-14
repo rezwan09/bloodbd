@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.blood.bloodgroup.dao;
+package com.blood.geolocation.dao;
 
-import com.blood.bloodgroup.model.BloodGroup;
+import com.blood.geolocation.model.Division;
 import java.util.List;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,14 +16,14 @@ import org.springframework.stereotype.Repository;
  * @author rezwan
  */
 @Repository
-public class BloodGroupDaoImpl implements BloodGroupDao {
+public class DivisionDaoImpl implements DivisionDao{
     @Autowired
     SessionFactory sessionFactory;
-
+    
     @Override
-    public List<BloodGroup> getBloodGroupList() {
-        List<BloodGroup> bloodGroups = this.sessionFactory.getCurrentSession().createQuery("from BloodGroup").list();
-        System.out.println("Size of blood group list is = "+bloodGroups.size());
-        return bloodGroups;
+    public List<Division> getDivisionList()
+    {
+        List<Division> divisionList = this.sessionFactory.getCurrentSession().createQuery("from Division").list();
+        return divisionList;
     }
 }

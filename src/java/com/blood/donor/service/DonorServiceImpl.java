@@ -3,15 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.blood.bloodgroup.dao;
-
-import com.blood.bloodgroup.model.BloodGroup;
-import java.util.List;
+package com.blood.donor.service;
 
 /**
  *
  * @author rezwan
  */
-public interface BloodGroupDao {
-    public List<BloodGroup> getBloodGroupList();
+public class DonorServiceImpl {
+    
 }
